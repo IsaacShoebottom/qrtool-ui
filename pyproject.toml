@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qrtool-ui"
+version = "0.1.0"
+description = ""
+authors = ["Isaac Shoebottom <ir.shoebottom@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "qrtool_ui"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+segno = "^1.5.2"
+pyside6 = "^6.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
